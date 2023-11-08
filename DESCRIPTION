@@ -2,8 +2,7 @@ Package: countallmissing
 Title: Count All Missing Values 
 Version: 0.1.0
 Authors@R: 
-    person("Hannah", "Hauch", , "hhauch00@student.ubc.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Hannah", "Hauch", , "hhauch00@student.ubc.ca", role = c("aut", "cre"))
 Description: The goal of countallmissing is to count missing values for all columns by group in a data set. 
   This function is a wrapper around the `group_by()` and `summarize()` functions in the `dplyr` package. 
   Given a data frame `data` and a column `group`, **count_all_missing_by_group()** creates a new data frame with one row per level of `group`.
