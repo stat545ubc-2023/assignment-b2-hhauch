@@ -20,11 +20,10 @@ missing values for all columns in `data` except `group`.
 
 ## Installation
 
-You can install the development version of countallmissing like so:
+You can install the development version of countallmissing using this:
 
 ``` r
-
-install_github("assignment-b2-hhauch", ref = "0.1.0')
+devtools::install_github("https://github.com/stat545ubc-2023/countallmissing_hhauch.git", ref = "0.1.0")
 ```
 
 ## Example

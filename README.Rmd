@@ -26,7 +26,7 @@ Given a data frame `data` and a column `group`, **count_all_missing_by_group()**
 
 ## Installation
 
-You can install the development version of countallmissing like so:
+You can install the development version of countallmissing using this:
 
 ``` r
 devtools::install_github("https://github.com/stat545ubc-2023/countallmissing_hhauch.git", ref = "0.1.0")
