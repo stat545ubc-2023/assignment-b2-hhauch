@@ -23,7 +23,7 @@ missing values for all columns in `data` except `group`.
 You can install the development version of countallmissing using this:
 
 ``` r
-devtools::install_github("https://github.com/stat545ubc-2023/countallmissing_hhauch.git", ref = "0.1.0")
+devtools::install_github("stat545ubc-2023/countallmissing_hhauch")
 ```
 
 ## Example
