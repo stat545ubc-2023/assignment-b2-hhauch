@@ -24,7 +24,8 @@
 #' @examples
 #' library(dplyr)
 #' small_tbl <- tribble(~group, ~var1, ~var2,"A", 1, NA,"A", 2, "x","B", NA, "y","C", 3, "z")
-#' count_all_missing_by_group(small_tbl, group)
+#' count_all_missing_by_group(small_tbl, group) #this shows an example of using the function
+#'
 #'
 #' @return A data frame or tibble with the
 #' levels of `group`, and the  number of NAs within
